@@ -3,5 +3,5 @@
 <div>cat pics go here</div>
 
 <% @cats.each do |c|%>
-	<div><%= c['url']%></div>
-<%end>
+	<div><%= image_tag c['url'], size:200 %></div>
+<%end%>
